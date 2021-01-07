@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/font/material-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+    body{
+        background-image: url(./images/aurora3.jpg);
+    }
+</style>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Scroll to the top</button>
+   
+
+    <div class="navbar">
+        <nav class="brown">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">My Portfolio</a>
+                    <a href="#" class="sidenav-trigger" data-target="links">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://drive.google.com/file/d/1cRLSerufwXtATuoP_0deneseDKKRURvu/view?usp=sharing">My CV</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                    </ul>
+                </div>
+                <ul class="sidenav" id="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://drive.google.com/file/d/1cRLSerufwXtATuoP_0deneseDKKRURvu/view?usp=sharing">My CV</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <br>
+
+
+    <div class="container center-align">
+        <div class="row">
+            <div class="col s12 m12 l6 center-align">
+                <p style="font-size: 32px;">Hello, I'm<span style="color: #ff4321;"> Florence</span> Nneoma Asoegwu</p>
+                <br>
+                <p style="font-size: 20px;">This is my official Portfolio page to showcase my web Development and other Skills.</p>
+                <br><br>
+                <p style="font-size: 20px;">I am a full stack developer, a writer and an entrepreneur. I write about live events 
+                    and happenings and a born-counsellor. I inspire people to be the best at what they 
+                    do and never to give up.   </p>      
+            </div>
+            <div class="col s12 m12 l6">
+                <div>
+                <img src="./images/love.jpg" alt="image" class="responsive-image" style="width: 100%; height: 600px; border-radius: 14px;">
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer brown">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><img src="./images/map-pin.svg" style="padding-right: 10px;">Alausa, Ikeja Lagos State</li>
+                        <li><img src="./images/phone.svg" style="padding-right: 10px;">+234 8104267779</li>
+                        <li><img src="./images/mail.svg" style="padding-right: 10px;">florencejacintaa02@mail.com</li>
+                    </ul>
+                </div>
+                <div class="col s12 m12 l6" id="connect">
+                    <h5>Connect With Me</h5>
+                        <span style="padding-right: 20px;"><a href="https://www.linkedin.com/in/florence-asoegwu-986823185"><img src="./images/linkedin.svg"></a></span>
+                        <span style="padding-right: 20px;"><a href="https://twitter.com/Florencejacint3"><img src=""><img src="./images/twitter.svg"></a></span>
+                        <span style="padding-right: 20px;"><a href="https://www.instagram.com/floxy_star"><img src=""><img src="./images/instagram.svg"></a></span>
+                        <span style="padding-right: 20px;"><a href="https://www.facebook.com/florence.jacinta"><img src=""><img src="./images/facebook.svg"></a></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="center">This was designed by Asoegwu Florence Nneoma &copy; 2020</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>
+ 
